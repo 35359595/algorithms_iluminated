@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B2B7D8E59978422591E60D1C /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B19EE6F74D2B413EB8B2C7FC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				6766FBBB063741BDBB5B2B0C /* CMake Rules */,
+			);
+			dependencies = (
+				7285ED781EDC46418EC1F1BB /* PBXTargetDependency */,
+				4F51C99F5C1D47B4924F2DA2 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		D1F5EDFBB54045878DA435AE /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0B02F72F1360490A86AA0D9D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				90073D4A1446486DA8FAF61A /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		274CE1B7812F48B59C97E9D4 /* int_multiply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BA7F9E86D044B2C836AFEFB /* int_multiply.cpp */; };
+		F0ED3947228730EA00FADCE0 /* algorithms_illuminated.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC101AA20C245F6A3B2E398 /* algorithms_illuminated.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B6C2DA8AD3422AA72208B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38D69C49F3E64BD7B4D14641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1F5EDFBB54045878DA435AE;
+			remoteInfo = ZERO_CHECK;
+		};
+		3E9608B9A95E42F2925BB6A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38D69C49F3E64BD7B4D14641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1F5EDFBB54045878DA435AE;
+			remoteInfo = ZERO_CHECK;
+		};
+		FFA6CDFB2D614FE69719AA16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38D69C49F3E64BD7B4D14641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AEBA1B9E112455888F4C9CB;
+			remoteInfo = algorithms_illuminated;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		071CD6C04EEB4074B5BE19A2 /* algorithms_illuminated.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = algorithms_illuminated.h; sourceTree = SOURCE_ROOT; };
+		1BA7F9E86D044B2C836AFEFB /* int_multiply.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = int_multiply.cpp; sourceTree = SOURCE_ROOT; };
+		3A1301D178A94AB892BFA5DF /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4EC101AA20C245F6A3B2E398 /* algorithms_illuminated.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = algorithms_illuminated.cpp; sourceTree = SOURCE_ROOT; };
+		70C3DD843AF54A1D9D54461B /* int_multiply.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = int_multiply.h; sourceTree = SOURCE_ROOT; };
+		907E918B4231468899B6FEF3 /* algorithms_illuminated */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = algorithms_illuminated; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADCEE7725584B839CD37E76 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1C9A6B80BA6C489FB56BA808 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				907E918B4231468899B6FEF3 /* algorithms_illuminated */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C44DE2F138B4C1AB74FC3A5 /* algorithms_illuminated */ = {
+			isa = PBXGroup;
+			children = (
+				916E2F1E506342EE8235B9AF /* Source Files */,
+				A799A382DA574D64816FC6B1 /* Header Files */,
+				CADCEE7725584B839CD37E76 /* CMakeLists.txt */,
+			);
+			name = algorithms_illuminated;
+			sourceTree = "<group>";
+		};
+		64F6A2ED7BF54B1989B04ABB = {
+			isa = PBXGroup;
+			children = (
+				3C44DE2F138B4C1AB74FC3A5 /* algorithms_illuminated */,
+				8502E6C46E574C5FA99252EA /* ALL_BUILD */,
+				1C9A6B80BA6C489FB56BA808 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8502E6C46E574C5FA99252EA /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C4A01B020BBB4E9F8C6667D2 /* CMake Rules */,
+				3A1301D178A94AB892BFA5DF /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		916E2F1E506342EE8235B9AF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EC101AA20C245F6A3B2E398 /* algorithms_illuminated.cpp */,
+				1BA7F9E86D044B2C836AFEFB /* int_multiply.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A799A382DA574D64816FC6B1 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				071CD6C04EEB4074B5BE19A2 /* algorithms_illuminated.h */,
+				70C3DD843AF54A1D9D54461B /* int_multiply.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		C4A01B020BBB4E9F8C6667D2 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AEBA1B9E112455888F4C9CB /* algorithms_illuminated */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7475CD52F42C4E149C46CC81 /* Build configuration list for PBXNativeTarget "algorithms_illuminated" */;
+			buildPhases = (
+				87511B2F57B54945A8C20696 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				427C8058B9D14651AB5B317E /* PBXTargetDependency */,
+			);
+			name = algorithms_illuminated;
+			productName = algorithms_illuminated;
+			productReference = 907E918B4231468899B6FEF3 /* algorithms_illuminated */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38D69C49F3E64BD7B4D14641 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 9DB84098DF5D415589541473 /* Build configuration list for PBXProject "Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64F6A2ED7BF54B1989B04ABB;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				B2B7D8E59978422591E60D1C /* ALL_BUILD */,
+				D1F5EDFBB54045878DA435AE /* ZERO_CHECK */,
+				6AEBA1B9E112455888F4C9CB /* algorithms_illuminated */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6766FBBB063741BDBB5B2B0C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jony/projects/cpp/algorithms_illuminated/_build -f /Users/jony/projects/cpp/algorithms_illuminated/_build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		90073D4A1446486DA8FAF61A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jony/projects/cpp/algorithms_illuminated/_build -f /Users/jony/projects/cpp/algorithms_illuminated/_build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87511B2F57B54945A8C20696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0ED3947228730EA00FADCE0 /* algorithms_illuminated.cpp in Sources */,
+				274CE1B7812F48B59C97E9D4 /* int_multiply.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		427C8058B9D14651AB5B317E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1F5EDFBB54045878DA435AE /* ZERO_CHECK */;
+			targetProxy = 3E9608B9A95E42F2925BB6A9 /* PBXContainerItemProxy */;
+		};
+		4F51C99F5C1D47B4924F2DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1F5EDFBB54045878DA435AE /* ZERO_CHECK */;
+			targetProxy = 04B6C2DA8AD3422AA72208B3 /* PBXContainerItemProxy */;
+		};
+		7285ED781EDC46418EC1F1BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AEBA1B9E112455888F4C9CB /* algorithms_illuminated */;
+			targetProxy = FFA6CDFB2D614FE69719AA16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03755DF4748347769301CA49 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jony/projects/cpp/algorithms_illuminated/_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		07307B8F2A2644E2A0B78C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jony/projects/cpp/algorithms_illuminated/_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		1B7CBD024A19456EB0BAAB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jony/projects/cpp/algorithms_illuminated/_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		34DD385D58A24ABF87CDC15B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/jony/projects/cpp/algorithms_illuminated/_build/build;
+			};
+			name = MinSizeRel;
+		};
+		4B66712185D0454EB623735F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++1z'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = algorithms_illuminated;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jony/projects/cpp/algorithms_illuminated/_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		525D0C4A4D4E45C290EDC8AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = algorithms_illuminated;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jony/projects/cpp/algorithms_illuminated/_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		6A777D7417FB42D785F8F28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jony/projects/cpp/algorithms_illuminated/_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		7F5D4672BF774E43ABE86849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/jony/projects/cpp/algorithms_illuminated/_build/build;
+			};
+			name = Debug;
+		};
+		99FEE67B2CAB4D25AAAEC091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jony/projects/cpp/algorithms_illuminated/_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		9E9BFA2D03CC424D956EAAA0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++1z'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = algorithms_illuminated;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jony/projects/cpp/algorithms_illuminated/_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		A706193E12124A939AB2FE94 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jony/projects/cpp/algorithms_illuminated/_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		B504080AD87F4F2F9E5984E9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jony/projects/cpp/algorithms_illuminated/_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		BC517A60825E4CA592924D18 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/jony/projects/cpp/algorithms_illuminated/_build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		F700ABE53FBB404589F22451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/jony/projects/cpp/algorithms_illuminated/_build/build;
+			};
+			name = Release;
+		};
+		F790D42618FE457892ED7607 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jony/projects/cpp/algorithms_illuminated/_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		FBF779F8AE2D4AEB9CC62262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++1z'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = algorithms_illuminated;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jony/projects/cpp/algorithms_illuminated/_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B02F72F1360490A86AA0D9D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A777D7417FB42D785F8F28F /* Debug */,
+				07307B8F2A2644E2A0B78C7B /* Release */,
+				B504080AD87F4F2F9E5984E9 /* MinSizeRel */,
+				A706193E12124A939AB2FE94 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7475CD52F42C4E149C46CC81 /* Build configuration list for PBXNativeTarget "algorithms_illuminated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525D0C4A4D4E45C290EDC8AB /* Debug */,
+				FBF779F8AE2D4AEB9CC62262 /* Release */,
+				4B66712185D0454EB623735F /* MinSizeRel */,
+				9E9BFA2D03CC424D956EAAA0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9DB84098DF5D415589541473 /* Build configuration list for PBXProject "Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F5D4672BF774E43ABE86849 /* Debug */,
+				F700ABE53FBB404589F22451 /* Release */,
+				34DD385D58A24ABF87CDC15B /* MinSizeRel */,
+				BC517A60825E4CA592924D18 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B19EE6F74D2B413EB8B2C7FC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7CBD024A19456EB0BAAB8D /* Debug */,
+				99FEE67B2CAB4D25AAAEC091 /* Release */,
+				03755DF4748347769301CA49 /* MinSizeRel */,
+				F790D42618FE457892ED7607 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38D69C49F3E64BD7B4D14641 /* Project object */;
+}

@@ -12,7 +12,7 @@ using namespace std;
 // Splits integer into two returning tuple of all numbers in input except last one,
 // last one returned as second tuple member.
 // input: 1234 | output: tuple<123, 4>
-auto split_as_int(int input) -> tuple<int, int> {
+auto split_as_int (int input) -> tuple<int, int> {
     double param = static_cast<double>(input) / 10;
     double fract_part, int_part;
     fract_part = modf(param, &int_part);
@@ -21,13 +21,25 @@ auto split_as_int(int input) -> tuple<int, int> {
     return make_tuple(whole, fract);
 }
 
-auto ten_to_power_n(int input, int n) -> int {
+auto ten_to_power_n (int input, int n) -> int {
 	while (n-- > 0)
 		input *= 10;
 	return input;
 }
 
-auto grade_school_multiply(int x, int y) noexcept -> int {
+auto recourse_grade_school_multiply (int input, int multiplyed, short step) noexcept -> int {
+	if (input <= 0 || multiplyed <=0)
+		return 0;
+	if (input < 10)
+		return step > 1 ? ten_to_power_n(input * multiplyed, step) : input * multiplyed;
+	auto split = split_as_int(input);
+	auto x = get<0>(split);
+	auto y = get<1>(split);
+	auto current = step > 1 ? ten_to_power_n(x * multiplyed, step) : x * multiplyed;
+	return current + recourse_grade_school_multiply(y, multiplyed, ++step);
+}
+
+auto grade_school_multiply (int x, int y) noexcept -> int {
 	if (x <= 0 || y <= 0)
 		return 0;
     if (y < 10)

@@ -6,6 +6,7 @@ using namespace std;
 
 int main()
 {
-    cout << grade_school_multiply(123, 456) << endl;
+    cout << "Grade school manual [123 * 456]:" << grade_school_multiply(123, 456) << endl;
+	cout << "Recoursive grade school [123 * 456]:" << recourse_grade_school_multiply(123, 456, 1) << endl;
 	return 0;
 }

@@ -6,7 +6,8 @@ using namespace std;
 
 int main()
 {
-    cout << "Grade school manual [123 * 456]:" << grade_school_multiply(123, 456) << endl;
-	cout << "Recoursive grade school [123 * 456]:" << recourse_grade_school_multiply(123, 456, 1) << endl;
+    cout << "Grade school manual [1234 * 5678]: " << grade_school_multiply(1234, 5678) << endl;
+	cout << "Recoursive grade school [1234 * 5678]: " << recourse_grade_school_multiply(1234, 5678) << endl;
+	cout << "Karatsuba initial implementation [1234 * 5678]: " << karatsuba_multiplication(1234, 5678) << endl;
 	return 0;
 }
